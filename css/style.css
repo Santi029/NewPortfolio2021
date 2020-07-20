@@ -498,7 +498,9 @@ nav ul {
     display: inline-flex;
     flex-flow: wrap row;
     justify-content: space-between;
-    width: 70%;
+    padding: 0 20px;
+    width: 100%;
+    height: 60px;
 }
 
 .footer-address {
@@ -527,18 +529,19 @@ nav ul {
     display: inline-flex;
     flex-flow: wrap row;
     justify-content: space-between;
-    width: 100px;
-    height: 50px;
     align-content: center;
+}
+
+.footer-socialiconsarea img{
+    width: 25px;
+    height: auto;
+    padding: 5px;
 }
 
 .footer-link {
     background-color: #2C2C2C;
-    width: 29%;
-    display: inline-flex;
-    flex-flow: wrap row;
-    justify-content: space-between;
-    justify-content: right;
+    width: 100%;
+    display: inline-block;
 }
 
 .main-footer a {
