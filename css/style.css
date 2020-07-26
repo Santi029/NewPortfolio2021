@@ -335,32 +335,32 @@ nav ul {
     color: #2C2C2C;
 }
 /*This is My Tools Section = tools + tecnologies + text*/
-#main-tools {
+.main-tools {
     background-color: #dddddd;
     width: 100%;
     display: inline-flex;
     flex-flow: wrap row;
     justify-content: space-evenly;
 }
-
-#sub-tools {
+.sub-tools {
     background-color: #CCCCCC;
     width: 65%;  
     padding-top: 50px;
     padding-bottom: 100px;
 }
 
-#text-tools {
+.text-tools {
     padding: 20px;
 }
 
-#tools-images {
+.slider {
     width: 100%;
     display: inline-flex;
     flex-flow: wrap row;
     justify-content: space-evenly;
     padding-top: 20px;
     padding-bottom: 20px; 
+    overflow: hidden;
 }
 
 .tool-image {
