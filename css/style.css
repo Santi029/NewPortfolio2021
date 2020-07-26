@@ -370,9 +370,8 @@ nav ul {
     padding: 10px;
 }
 
-
 /*This is the Last Works Section = text*/
-#main-works {
+.main-works {
     background-color: #dddddd;
     width: 100%;
     display: inline-flex;
@@ -380,15 +379,16 @@ nav ul {
     align-items: center;
 }
 
-#sub-works {
+.sub-works {
     width: 65%;
     background-color: #FFF;
     display: inline-flex;
     flex-flow: wrap row;
     justify-content: space-evenly;
+    padding-bottom: 60px;
 }
 
-#work-header {
+.work-header {
     padding: 20px;
     color: #2C2C2C;
     display: inline-flex;
@@ -396,13 +396,13 @@ nav ul {
     justify-content: space-evenly;
 }
 
-#work-areas {
+.work-areas {
     display: inline-flex;
     flex-flow: wrap row;
     justify-content: space-evenly;
 }
 
-#article-areas {
+.article-areas {
     background-color: #CCCCCC;
     border: solid 3px #8C8C8C;
     height: auto;
@@ -417,19 +417,19 @@ nav ul {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#article-image-wrap {
+.article-image-wrap {
     width: 250%;
     height: auto;
     object-fit: fill;
 }
 
-#article-image {
+.article-image {
     width: auto;
     height: 250px;
     background-color: #CCCCCC;
 }
 
-#article-description {
+.article-description {
     background-color: white;
     margin-top: -80px;
     margin-left: 20px;
@@ -438,7 +438,7 @@ nav ul {
     border-radius: 10px;
 }
 
-#description {
+.description {
     background-color: #CCCCCC;
 }
 
@@ -521,7 +521,7 @@ nav ul {
     flex-flow: wrap column;
     align-content: center;
 }
- 
+
 .sub-footer {
     background-color: #0093d7;
     width: 65%;
