@@ -289,7 +289,7 @@ nav ul {
 
 
 /*This is the About Section  = text + image*/
-#main-about {
+.main-about {
     background-color: #dddddd;
     width: 100%;
     display: inline-flex;
@@ -297,7 +297,7 @@ nav ul {
     justify-content: center;
 }
 
-#sub-about {
+.sub-about {
     background-color: rgb(255, 255, 255);
     width: 65%;
     display: inline-flex;
@@ -305,33 +305,27 @@ nav ul {
     justify-content: space-around;
 }
 
-#about-wrap {
+.about-wrap {
     display: inline-flex;
     flex-flow: wrap row;
-    width: 30%;
-    padding: 50px;
     box-sizing: content-box;
     vertical-align: middle;
 }
 
-#about-image {
+.about-wrap img{
     display: inline-flex;
     flex-flow: wrap;
     border-radius: 10px;
-    border-bottom-color: #4C4C4C;
-    border-style: solid;
-    border-left-color: #0093D7;
-    border-top-color: #0093D7;
-    border-right-color: #4C4C4C;
+    width: 100%;
+    height: 100%;
 }
 
-#about-section {
-    width: 500px;
-    padding: 20px;
-
+.about-section {
+    width: 80%;
+    padding: 50px;
 }
 
-#about-section h2, h3, h4, p, li {
+.about-section h2, h3, h4, p, li {
     color: #2C2C2C;
 }
 /*This is My Tools Section = tools + tecnologies + text*/
