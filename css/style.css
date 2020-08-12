@@ -322,7 +322,7 @@ nav ul {
 
 .about-section {
     width: 80%;
-    padding: 50px;
+    padding: 0px 50px 50px 50px;
 }
 
 .about-section h2, h3, h4, p, li {
