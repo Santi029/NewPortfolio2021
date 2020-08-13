@@ -25,7 +25,10 @@
 mycolors {
     background-color: #1b1b1b;
     color: #3491bd;
+    border-color: #8c8c8c;
+    border-color: #6c6c6c;
     border-color: #4C4C4C;
+    border-color: #2c2c2c;
     color: rgb(172, 172, 172);
     color: #dddddd;
 }
@@ -38,6 +41,7 @@ body {
     align-content: center;
     width: 100%;
     margin: 0px;
+    background-color: #1b1b1b;
 }
 
 header a {
@@ -93,7 +97,7 @@ p {
 
 /*This is the Info & Social Header Section = contactinfo + socialinfo*/
 .main-social {
-    background-color: #dddddd;
+    /* background-color: #1b1b1b; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -155,7 +159,7 @@ p {
 
 /*This is the Main Header Section = logo + menu*/
 .main-header {
-    background-color: #dddddd;
+    /* background-color: #1b1b1b; */
     display: inline-flex;
     flex-flow: wrap row;
     justify-content: center;
@@ -167,7 +171,7 @@ p {
 } */
 
 .sub-header {
-    background-color: #1b1b1b;
+    background-color: #8C8C8C;
     width: 65%;
     display: inline-flex;
     flex-flow: wrap row;
@@ -213,7 +217,7 @@ nav ul {
     display: inline-flex;
     flex-flow: column;
     justify-content: right;
-    background-color: #dddddd;
+    /* background-color: #1b1b1b; */
 }
 
 .sub-slideshow {
@@ -246,7 +250,7 @@ nav ul {
 /*This is the skills Section = logos + text*/
 .main-skills {
     width: 100%;
-    background-color: #dddddd;
+    /* background-color: #1b1b1b; */
     display: inline-flex;
     flex-flow: wrap column;
     align-content: center;
@@ -290,7 +294,7 @@ nav ul {
 
 /*This is the About Section  = text + image*/
 .main-about {
-    background-color: #dddddd;
+    /* background-color: #1b1b1b; */
     width: 100%;
     display: inline-flex;
     flex-flow: wrap row;
@@ -330,7 +334,7 @@ nav ul {
 }
 /*This is My Tools Section = tools + tecnologies + text*/
 .main-tools {
-    background-color: #dddddd;
+    /* background-color: #1b1b1b; */
     width: 100%;
     display: inline-flex;
     flex-flow: wrap row;
@@ -366,7 +370,7 @@ nav ul {
 
 /*This is the Last Works Section = text*/
 .main-works {
-    background-color: #dddddd;
+    /* background-color: #1b1b1b; */
     width: 100%;
     display: inline-flex;
     flex-flow: wrap column;
@@ -443,7 +447,7 @@ nav ul {
     display: inline-flex;
     flex-flow: wrap column;
     align-content: center;
-    background-color: #dddddd;
+    /* background-color: #dddddd; */
 }
 
 .sub-email {
@@ -508,7 +512,7 @@ nav ul {
 /*This is the Footer Section = text + conctact info + social icons*/
 .main-footer {
     color: white;
-    background-color: #dddddd;
+    /* background-color: #dddddd; */
     text-align: center;
     width: 100%;
     display: inline-flex;
