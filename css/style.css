@@ -25,7 +25,10 @@
 mycolors {
     background-color: #1b1b1b;
     color: #3491bd;
+    border-color: #8c8c8c;
+    border-color: #6c6c6c;
     border-color: #4C4C4C;
+    border-color: #2c2c2c;
     color: rgb(172, 172, 172);
     color: #dddddd;
 }
