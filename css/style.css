@@ -600,6 +600,6 @@ nav ul {
     padding-right: 5px;
 }
 
-.LI-badge-container.horizontal.dark {
-    width: 400px;
+.LI-profile-badge .LI-simple-link {
+    width: 50%;
 }
