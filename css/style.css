@@ -104,7 +104,7 @@ p {
 }
 
 .sub-social {
-    background-color: #3491bd;
+    background-color: #CCCCCC;
     width: 65%;
     display: inline-flex;
     flex-flow: wrap row;
@@ -609,6 +609,10 @@ nav ul {
     padding-right: 5px;
 }
 
-.LI-profile-badge .LI-simple-link {
+.LI-profile-badge .LI-simple-link .LI-badge-container.horizontal.dark{
     width: 50%;
+}
+
+.LI-badge-container-horizontal-dark .LI-badge-container .horizontal .dark .medium{
+    width: 60%;
 }
