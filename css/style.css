@@ -41,6 +41,7 @@ body {
     align-content: center;
     width: 100%;
     margin: 0px;
+    background-color: #2c2c2c;
 }
 
 header a {
@@ -96,14 +97,14 @@ p {
 
 /*This is the Info & Social Header Section = contactinfo + socialinfo*/
 .main-social {
-    background-color: #dddddd;
+    /* background-color: #1b1b1b; */
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .sub-social {
-    background-color: #ffffff;
+    background-color: #3491bd;
     width: 65%;
     display: inline-flex;
     flex-flow: wrap row;
@@ -158,7 +159,7 @@ p {
 
 /*This is the Main Header Section = logo + menu*/
 .main-header {
-    background-color: #dddddd;
+    /* background-color: #1b1b1b; */
     display: inline-flex;
     flex-flow: wrap row;
     justify-content: center;
@@ -216,7 +217,7 @@ nav ul {
     display: inline-flex;
     flex-flow: column;
     justify-content: right;
-    background-color: #dddddd;
+    /* background-color: #1b1b1b; */
 }
 
 .sub-slideshow {
@@ -249,7 +250,7 @@ nav ul {
 /*This is the skills Section = logos + text*/
 .main-skills {
     width: 100%;
-    background-color: #dddddd;
+    /* background-color: #1b1b1b; */
     display: inline-flex;
     flex-flow: wrap column;
     align-content: center;
@@ -293,7 +294,7 @@ nav ul {
 
 /*This is the About Section  = text + image*/
 .main-about {
-    background-color: #dddddd;
+    /* background-color: #1b1b1b; */
     width: 100%;
     display: inline-flex;
     flex-flow: wrap row;
@@ -333,7 +334,7 @@ nav ul {
 }
 /*This is My Tools Section = tools + tecnologies + text*/
 .main-tools {
-    background-color: #dddddd;
+    /* background-color: #1b1b1b; */
     width: 100%;
     display: inline-flex;
     flex-flow: wrap row;
@@ -369,7 +370,7 @@ nav ul {
 
 /*This is the Last Works Section = text*/
 .main-works {
-    background-color: #dddddd;
+    /* background-color: #1b1b1b; */
     width: 100%;
     display: inline-flex;
     flex-flow: wrap column;
@@ -435,8 +436,17 @@ nav ul {
     border-radius: 10px;
 }
 
+.article-description h3, p{
+    margin: 25px 25px;
+}
+
+.article-description h3{
+    padding-top: 25px;
+}
+
 .description {
     background-color: #CCCCCC;
+    margin-bottom: 25px;
 }
 
 /*This is the Email Section = text and email form*/
@@ -446,7 +456,7 @@ nav ul {
     display: inline-flex;
     flex-flow: wrap column;
     align-content: center;
-    background-color: #dddddd;
+    /* background-color: #dddddd; */
 }
 
 .sub-email {
@@ -511,7 +521,7 @@ nav ul {
 /*This is the Footer Section = text + conctact info + social icons*/
 .main-footer {
     color: white;
-    background-color: #dddddd;
+    /* background-color: #dddddd; */
     text-align: center;
     width: 100%;
     display: inline-flex;
@@ -597,4 +607,8 @@ nav ul {
     color: white;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.LI-profile-badge .LI-simple-link {
+    width: 50%;
 }
