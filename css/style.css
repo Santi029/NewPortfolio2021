@@ -436,11 +436,17 @@ nav ul {
     border-radius: 10px;
 }
 
-.article-description h4, p{
-    margin: 25px 25px;}
+.article-description h3, p{
+    margin: 25px 25px;
+}
+
+.article-description h3{
+    padding-top: 25px;
+}
 
 .description {
     background-color: #CCCCCC;
+    margin-bottom: 25px;
 }
 
 /*This is the Email Section = text and email form*/
