@@ -41,7 +41,6 @@ body {
     align-content: center;
     width: 100%;
     margin: 0px;
-    background-color: #2c2c2c;
 }
 
 header a {
@@ -177,7 +176,7 @@ p {
     flex-flow: wrap row;
     justify-content: space-between;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     box-shadow: 0px 5px 10px #2C2C2C;
     z-index: 1;
 }
@@ -212,21 +211,33 @@ nav ul {
 
 /*This is the Slideshow Section  = background + texto*/
 .main-slideshow {
-    height: 300px;
+    height: auto;
     width: 100%;
     display: inline-flex;
     flex-flow: column;
     justify-content: right;
-    /* background-color: #1b1b1b; */
-    border-color: #CCCCCC;
 }
 
 .sub-slideshow {
-    background-size: 65%;
+    width: 65%;
     background-repeat: no-repeat;
     background-position-x: center;
-    /* background-color: #929292; */
-    border-color: #0093D7;
+    margin: auto;
+}
+
+.carousel-item {
+    height: 32rem;
+    background: #4C4C4C;
+    color: white;
+    position: relative;
+}
+
+.container .carousel-inner{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
 }
 
 .slideshow-text {
