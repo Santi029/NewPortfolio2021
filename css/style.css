@@ -212,18 +212,21 @@ nav ul {
 
 /*This is the Slideshow Section  = background + texto*/
 .main-slideshow {
-    height: auto;
+    height: 300px;
     width: 100%;
     display: inline-flex;
     flex-flow: column;
     justify-content: right;
     /* background-color: #1b1b1b; */
+    border-color: #CCCCCC;
 }
 
 .sub-slideshow {
     background-size: 65%;
     background-repeat: no-repeat;
     background-position-x: center;
+    /* background-color: #929292; */
+    border-color: #0093D7;
 }
 
 .slideshow-text {
