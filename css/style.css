@@ -230,6 +230,7 @@ nav ul {
     background: #4C4C4C;
     color: white;
     position: relative;
+    height: 300px;
 }
 
 /* .carousel-item img {
@@ -529,7 +530,7 @@ nav ul {
 .boton {
     width: 10%;
     height: 30px;
-    background-color: #4C4C4C;
+    /* background-color: #4C4C4C; */
     color: white;
     border-radius: 5px;
     border: none;
