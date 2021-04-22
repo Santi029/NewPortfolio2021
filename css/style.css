@@ -211,7 +211,7 @@ nav ul {
 
 /*This is the Slideshow Section  = background + texto*/
 .main-slideshow {
-    height: auto;
+    height: 300px;
     width: 100%;
     display: inline-flex;
     flex-flow: column;
