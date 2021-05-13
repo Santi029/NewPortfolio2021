@@ -1,4 +1,4 @@
-@media (max-width: 600px) { 
+/* @media (max-width: 600px) { 
     body{
         background: palegreen;
     }
@@ -7,5 +7,37 @@
 @media (max-width: 375px) {
     body{
         background-color: thistle;
+    }
+} */
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    body{
+        background: palegreen;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    body{
+        background-color: thistle;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body{
+        background-color: rgb(138, 23, 23);
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body{
+        background-color: rgb(230, 226, 27);
     }
 }
