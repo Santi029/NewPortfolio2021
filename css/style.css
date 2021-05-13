@@ -211,7 +211,7 @@ nav ul {
 
 /*This is the Slideshow Section  = background + texto*/
 .main-slideshow {
-    height: 300px;
+    height: 645px;
     width: 100%;
     display: inline-flex;
     flex-flow: column;
@@ -223,6 +223,7 @@ nav ul {
     background-repeat: no-repeat;
     background-position-x: center;
     margin: auto;
+    height: 645px;
 }
 
 .carousel-item {
@@ -230,7 +231,7 @@ nav ul {
     background: #4C4C4C;
     color: white;
     position: relative;
-    height: 300px;
+    height: 645px;
 }
 
 /* .carousel-item img {
