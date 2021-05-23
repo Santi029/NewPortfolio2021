@@ -44,7 +44,8 @@ body {
 }
 
 header a {
-    color: white;
+    color: #0093d7;
+    text-transform: capitalize;
     text-decoration: none;
 }
 main h1 {
@@ -108,37 +109,48 @@ p {
     display: inline-flex;
     flex-flow: wrap row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .address {
     display: inline-flex;
     flex-flow: nowrap row;
     justify-content: start;
-    align-items: center;
     width: 20%;
     padding: 10px 20px;
+    align-items: center;
 }
 
 .address address {
-    font-style: normal;
+    padding: 20px;
 }
 
 .email {
     display: inline-flex;
     flex-flow: wrap row;
-    justify-content: space-evenly;
-    align-items: center;
     width: 20%;
     padding: 10px 20px;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.email a {
+    padding-left: 20px;
 }
 
 .phone {
     display: inline-flex;
     flex-flow: wrap row;
-    justify-content: space-evenly;
-    align-items: center;
     width: 20%;
     padding: 10px 20px;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.phone a {
+    padding-left: 20px;
 }
 
 .socialiconsarea{
@@ -151,7 +163,7 @@ p {
 
 .socialiconsarea img {
     width: auto;
-    height: 20px;
+    height: 30px;
     color: #1b1b1b;
 }
 
@@ -178,18 +190,18 @@ p {
     padding: 10px;
     box-shadow: 0px 5px 10px #2C2C2C;
     z-index: 1;
+    height: 100px;
+    align-items: center;
 }
 
 .logo-menu {
-    vertical-align: middle;
     width: 15%;
 }
 
 .header-logo {
-    width: 175px;
+    width: 60%;
     height: auto;
-    padding-left: 10px;
-    vertical-align: middle;
+    padding-left: 15px;
 }
 
 .navigation {
@@ -296,6 +308,7 @@ nav ul {
 
 .skills-head{
     padding: 50px;
+    width: 100%;
 }
 
 .skill-box {
@@ -417,6 +430,7 @@ nav ul {
     display: inline-flex;
     flex-flow: wrap row;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .work-area {
