@@ -19,6 +19,10 @@
     body{
         background: palegreen;
     }
+    .sub-social {
+        display: inline-flex;
+        flex-flow: nowrap;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
